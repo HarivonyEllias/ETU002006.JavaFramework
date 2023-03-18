@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package etu2006.framezork;
+package etu2006.framework;
 
 /**
  *
@@ -14,6 +14,11 @@ public class Mapping {
 
     public String getClassName() {
         return className;
+    }
+
+    public Mapping(String className, String method) {
+        this.className = className;
+        this.method = method;
     }
 
     public void setClassName(String className) {
